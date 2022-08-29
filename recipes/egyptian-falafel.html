@@ -4,64 +4,170 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <title>Traditional New Gen Lithuanian Dishes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <title>Odin Recipes</title>
   </head>
-  <body>
-    <header>
-      <div class="logo">
-        <h4>
-          <a href="../index.html"
-            >Traditional<sup> Next Gen</sup><br><strong>Lithuanian Dishes</strong></a
-          >
-        </h1>
-      </div>
-      <nav>
-        <ul>
-          <li></li>
-          <a href="../index.html">Home</a>
-          <li></li>
-          <a href="#">Recipes</a>
-          <li></li>
-          <a href="#">Blog</a>
-          <li></li>
-          <a href="#">Contacts</a>
-        </ul>
-      </nav>
-    </header>
-    <div class="container">
-      <section>
-        <h2>Ta'ameya (Egyptian Falafel)</h2>
-        <img src="../img/egyptina-falafel.jpg" alt="" class="dish">
-        <div class="desc"><p>Falafel, or ta'ameya as we call it in Egypt, is an all-time favorite street food. In most parts of the Middle East, falafel is made with ground chickpeas. However, in Egypt, we make it with dried fava beans. They are best served with pita bread, tomato, onions, and tahini sauce.</p></div>
-        <h3>Ingredients</h3>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    2 cups dried split fava beans
-                </label>
-            </div>
-            <div class="form-check">   
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    1 red onion, quartered
-                </label>
-            </div> 
-            <div class="form-check"> 
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    ½ cup fresh parsley
-                </label>
-            </div> 
-            <div class="form-check"> 
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    ½ cup fresh cilantro
-                </label>
-            </div> 
+  <body style="padding-top: 4.5rem">
+    <nav
+      class="navbar navbar-expand-md navbar-light border shadow fixed-top bg-light"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="../index.html" class="navbar-brand"
+              ><img src="../img/logo.svg" style="width: 250px" alt=""
+            /></a>
+          </div>
         </div>
-    </content>
+        <div class="row">
+          <div class="col">
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#nav"
+              aria-controls="nav"
+              aria-label="Expand Navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end text-center"
+          id="nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item display-6 px-lg-2">
+              <a href="../index.html" class="nav-link actyve text-success">Home</a>
+            </li>
+
+            <li class="nav-item display-6 px-lg-2">
+              <a href="#" class="nav-link text-success">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main role="main" class="container">
+      <div class="card text-center py-2 my-5">
+        <div class="card-body">
+          <h1 class="card-title">Ta'ameya (Egyptian Falafel)</h1>
+          <div class="card-text w-75 m-auto"> Falafel, or ta'ameya as we call it in Egypt, is an all-time favorite
+            street food. In most parts of the Middle East, falafel is made with
+            ground chickpeas. However, in Egypt, we make it with dried fava
+            beans. They are best served with pita bread, tomato, onions, and
+            tahini sauce.</div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-lg-2 g-4 my-2">
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="../img/egyptina-falafel.jpg" alt="" class="card-img" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h2 class="card-title">Ingredients</h2>
+              <div class="card-text">
+                <div class="form-check py-2 ">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    2 cups dried split fava beans
+                  </label>
+                </div>
+                <div class="form-check py-2">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    1 red onion, quartered
+                  </label>
+                </div>
+                <div class="form-check py-2">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    ½ cup fresh parsley
+                  </label>
+                </div>
+                <div class="form-check py-2">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    ½ cup fresh cilantro
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-2 g-4 my-2">
+        <div class="col">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h2 class="card-title">Steps:</h2>
+              <div class="card-text">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-action" ><span class="badge bg-success badge-pill">1</span> Soaked fava beans, red onion, parsley, cilantro, dill, garlic, coriander, salt, and cumin in a food processor; process to a dough-like consistency.</li>
+                  <li class="list-group-item list-group-item-action"><span class="badge bg-success badge-pill">2</span> Heat a skillet over medium heat. Add sesame seeds; cook, stirring occasionally, until toasted, about 5 minutes. Transfer to a large plate.</li>
+                  <li class="list-group-item list-group-item-action"><span class="badge bg-success badge-pill">3</span> Shape fava bean mixture into balls. Roll in sesame seeds to coat.</li>
+                  <li class="list-group-item list-group-item-action"><span class="badge bg-success badge-pill">4</span> Fill a large saucepan 1/4 full with oil; heat over medium heat. Fry fava bean balls in batches until golden brown, 3 to 5 minutes. Drain on paper towels.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h2 class="card-title">Nutrition Facts
+              </h2>
+              <div class="card-text">
+                <div class="list-group">
+                  <li class="list-group-item list-group-item-action"><strong>Prep: </strong>20 mins</li>
+                  <li class="list-group-item list-group-item-action"><strong>Cook: </strong>8 mins</li>
+                  <li class="list-group-item list-group-item-action"><strong>Additional: </strong>8 hrs</li>
+                  <li class="list-group-item list-group-item-action"><strong>Total: </strong>8 hrs 28 mins</li>
+                  <li class="list-group-item list-group-item-action"><strong>Servings: </strong>10</li>
+                  <li class="list-group-item list-group-item-action"><strong>Yield: </strong>50 falafel
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
