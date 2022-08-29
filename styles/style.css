@@ -5,3 +5,11 @@
 .material-symbols-outlined {
   vertical-align: middle;
 }
+.card {
+    transition-duration: 300ms;
+    transform: scale(1)
+}
+.card:hover {
+    transition-duration: 300ms;
+transform: scale(1.03)
+}
