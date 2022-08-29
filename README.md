@@ -8,7 +8,7 @@ HTML, CSS, Bootstrap
 
 Worked with Visual Studio Code editor.
 
-Recipes and images from: https://www.allrecipes.com/
+Recipes and images used from: https://www.allrecipes.com/
 
 1. https://www.allrecipes.com/recipe/254743/taameya-egyptian-falafel/
 2. https://www.allrecipes.com/recipe/8330707/easy-5-ingredient-roasted-salmon/
